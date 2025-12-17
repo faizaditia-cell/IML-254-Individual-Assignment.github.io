@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Resume</title>
+<style>
+body {margin: 0; font-family: Arial, sans-serif; background-color: #0a1a33; color: white;}
+
+.sidebar {width: 200px; background-color: #001f3f; height: 100vh; position: fixed; padding-top: 20px;}
+
+.sidebar h3 {text-align: center; margin-bottom: 20px;}
+
+.sidebar a {display: block; color: white; text-decoration: none; padding: 12px 20px; margin: 4px 0; border-radius: 4px; transition: 0.3s;}
+
+.sidebar a:hover {background-color: #004080;}
+
+.main {margin-left: 200px; padding: 0; position: relative;}
+
+.banner {background-color: #00d4ff; color: #001f3f; text-align: center; padding: 40px 20px;}
+
+.banner h1 {margin: 0; font-size: 32px;}
+
+.banner p {margin: 5px 0 0;font-size: 18px;}
+
+
+.resume-viewer {margin: 20px;}
+
+.resume-viewer iframe {width: 100%; height: 700px; border: none; border-radius: 8px;}
+
+
+.footer {background-color: #001f3f; color: #ccc; font-size: 12px; text-align: center; padding: 15px; margin-top: 20px; border-top: 1px solid #00d4ff;}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="sidebar">
+<h3>MENU</h3>
+<a href="index.html">Home</a>
+<a href="biodata.html">Biodata</a>
+<a href="family.html">Family</a>
+<a href="education.html">Education</a>
+<a href="interest.html">Interests</a>
+<a href="gallery.html">Gallery</a>
+<a href="Contact.html">Contact</a>
+<a href="e-resume.html">Resume</a>
+</div>
+
+
+<div class="main">
+<!-- Static cyan banner -->
+<div class="banner">
+<h1>My Resume</h1>
+<p>Scroll down to view or download my resume</p>
+</div>
+
+
+<div class="resume-viewer">
+<iframe src="E-resume.pdf"></iframe>
+</div>
+
+
+<p style="text-align:center; margin-top:15px;">
+<a href="E-resume.pdf" target="_blank" style="color:#00d4ff; font-weight:bold;">
+Download Resume (PDF)
+</a>
+</p>
+
+<div class="footer">
+<p>&copy; 2025 My Resume. All rights reserved.</p>
+<p>Last Updated: December 16, 2025</p>
+</div>
+</div>
+
+</body>
+</html>
